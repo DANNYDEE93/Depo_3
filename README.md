@@ -29,7 +29,28 @@ ________________________________________________________________
 ##### **Post-incident report**
 #### ____________________________________________________________________________
 
-Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application.  This critical-level incident affected 100% of users.  The incident was found and notified by the
+Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application.  This critical-level incident affected 100% of internal and external users. The incident was detected by DataDog from monitor alerts and triggered a successful build in Jenkins and the senior development team was alerted right away. A bug error ticket was created and the incident was escalated to our engineering team.
+
+
+After receiving a page at {XX:XX UTC}, {ON-CALL ENGINEER} came online at {XX:XX UTC} in {SYSTEM WHERE INCIDENT INFO IS CAPTURED}. 
+
+This engineer did not have a background in the {AFFECTED SYSTEM} so a second alert was sent at {XX:XX UTC} to {ESCALATIONS ON-CALL ENGINEER} into the who came into the room at {XX:XX UTC}.
+
+
+
+Describe how the service was restored and the incident was deemed over. Detail how the service was successfully restored and you knew how what steps you needed to take to recovery. 
+
+Depending on the scenario, consider these questions: How could you improve time to mitigation? How could you have cut that time by half?
+
+EXAMPLE:
+We used a three-pronged approach to the recovery of the system: 
+
+{DESCRIBE THE ACTION THAT MITIGATED THE ISSUE, WHY IT WAS TAKEN, AND THE OUTCOME} 
+
+Example: By Increasing the size of the BuildEng EC3 ASG to increase the number of nodes available to support the workload and reduce the likelihood of scheduling on oversubscribed nodes
+
+Disabled the Escalator autoscaler to prevent the cluster from aggressively scaling-down
+Reverting the Build Engineering scheduler to the previous version.ccds
 
  <ins>**Resolution**</ins>
  
