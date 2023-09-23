@@ -26,13 +26,18 @@ Given the scenario, I've provided a post-incident report to have a record for wh
 
 <ins>**Downtime**</ins>
 
-- How long was the site down or malfunctioning?
-
  <ins>**Resolution**</ins>
-- What steps were taken to resolve the incident?
-
  
-         <ins> **Was the incident fully resolved?** </ins>
+</ins> **What steps were taken to resolve the incident?** </ins>
+
+In order to make sure that the web application wasn't down for longer than 20 minutes, my first step was to rollback to the previous version of the application that was working using git code in remote repo in the visual studio code terminal to commit changes and push the switch back to version 1 in the local repo on GitHub. Rollback to version 1 in visual studio code using the following steps:
+
+1. Run **git log --oneline** to see th hash number associated with the git commit for Version 1(V1)
+2. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
+      2a. After git checkout, V1 was placed in a branch in a detached state so it was not going to be able to add and commit the revert to V1.
+     2b. git pull -u 
+
+<ins> **Was the incident fully resolved?** </ins>
 
 #### ____________________________________________________________________________
 ##### **Next Steps**
