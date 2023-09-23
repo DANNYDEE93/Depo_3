@@ -29,10 +29,7 @@ ________________________________________________________________
 ##### **Post-incident report**
 #### ____________________________________________________________________________
 
-Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application. The incident was found and notified by the This critical-level incident affected 100% of users 
-<ins>**Reason for the incident**</ins>: Version 2 of the web application was deployed to the production stage with an internal server error. 
-
-<ins>**Downtime**</ins>: 15 minutes 
+Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application.  This critical-level incident affected 100% of users.  The incident was found and notified by the
 
  <ins>**Resolution**</ins>
  
