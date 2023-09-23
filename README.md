@@ -19,12 +19,20 @@ A new hire was tasked with updating the URL shortener in Amazon Elastic Beanstal
 To provide a solution for this scenairo, I used an EC2 instance installed with Jenkins, Python, and AWS Elastic Beanstalk CLI along with a webhook made through GitHub to automatically trigger a test and build in Jenkins. I used this same EC2 instance to deploy a web application in an ElasticBeanstalk environment created through the command line interface with an URL shortener in my previous deployment. You can review my previous Deployment 3 [here](https://github.com/DANNYDEE93/Deployment3).
 Given the scenario, I've provided a post-incident report to have a record for what happened, how long the application was down for, the steps I took to resolve the incident, and the steps I will take in the future to avoid another incident like this from happening again. 
 
+
+
+___________________________________________________________
+Message sent to Nike to inform them of the incident. The web application  is currently experiencing issues. We know this is frustrating and we’re working to resolve this as soon as possible. We have escalated this to our engineering team, and will provide an update as soon as more information becomes available.
+________________________________________________________________
+
 #### ______________________________________________________________________________
 ##### **Post-incident report**
-#### ______________________________________________________________________________
-<ins>**Reason for the incident**</ins>
+#### ____________________________________________________________________________
 
-<ins>**Downtime**</ins>
+Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application. The incident was found and notified by the This critical-level incident affected 100% of users 
+<ins>**Reason for the incident**</ins>: Version 2 of the web application was deployed to the production stage with an internal server error. 
+
+<ins>**Downtime**</ins>: 15 minutes 
 
  <ins>**Resolution**</ins>
  
