@@ -63,6 +63,8 @@ ________________________________________________________________________________
 
 ![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/gitpullgitpush.png) 
 
+*check commits on GitHub to see if repo rolled back to version 1*
+
 ![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/whiteversion1.png) 
 
  <ins>**B. Troubleshooting**</ins>
@@ -74,9 +76,9 @@ ________________________________________________________________________________
 ![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/eberrorlog.png) 
 
 
-2. Checked error in commits shown in the local repo
+2. Checked commits on Github to show corresponding errors in version 2 application shown in the local repo.
 
-![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/githubv2.png) v2
+![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/githubv2.png) 
 
 3. Corrected errors in version 2 of the application for the future and allows the development team to continue making necessary updates to improve user experience.
 
