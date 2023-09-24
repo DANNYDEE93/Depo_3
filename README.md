@@ -43,7 +43,7 @@ ___________________________________________________________________________
 
 1. Run **git log --oneline** to see th hash number associated with the git commit for Version 1(V1)
 
- [here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/versionHash.png) 
+ [](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/versionHash.png) 
  
 2. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
 
