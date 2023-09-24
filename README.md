@@ -43,27 +43,27 @@ ___________________________________________________________________________
 
 1. Run **git log --oneline** to see th hash number associated with the git commit for Version 1(V1)
 
- [here](https://github.com/DANNYDEE93/Deployment3) hash
+ [here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/versionHash.png) 
  
 2. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
 
-[here](https://github.com/DANNYDEE93/Deployment3) checkout
+[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/gitcheckout.png) 
 
 ____________________________________________________________________________________
 3. Run **git switch -c second** to save changes to a new branch 
 4. Run **git checkout -b second origin main** to 
 5. Run **git branch --set-upstream-to=origin main** to connect the branches from the remote repo to the local repo.
-7. Run **git add** to add changes to the staging environment
-8. Run **git commit -m "Rolled back to Version 1"** commits changes to the local repo
+6. Run **git add** to add changes to the staging environment
+7. Run **git commit -m "Rolled back to Version 1"** commits changes to the local repo
 _____________________________________________________________________________________
 
-9. Run **git status** to see which branch you are currently in an whether it is up to date. Make sure there aren't any other conflicts that need resolving. 
-10. Run **git pull** the changes in the remote repo and sign into Github to connect repositories
-11. Run **git push**  to push changes made in the main branch on the remote repo that has already been connected to the local repo. 
+8. Run **git status** to see which branch you are currently in an whether it is up to date. Make sure there aren't any other conflicts that need resolving. 
+9. Run **git pull** the changes in the remote repo and sign into Github to connect repositories
+10. Run **git push**  to push changes made in the main branch on the remote repo that has already been connected to the local repo. 
 
-[here](https://github.com/DANNYDEE93/Deployment3) pulloush
+[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/gitpullgitpush.png) 
 
-[here](https://github.com/DANNYDEE93/Deployment3) version1
+[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/whiteversion1.png) 
 
  <ins>**B. Troubleshooting**</ins>
  
@@ -71,15 +71,14 @@ ________________________________________________________________________________
 
 1. Checked error logs in ElasticBeanstalk that pointed to a JSON error in the application.py file in the local repo.
 
-[here](https://github.com/DANNYDEE93/Deployment3) error log
+[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/eberrorlog.png) 
 
 
-3. Checked error in commits shown in the local repo
+2. Checked error in commits shown in the local repo
 
-   [here](https://github.com/DANNYDEE93/Deployment3) v2
-5. Corrected errors in version 2 of the application for the future and allows the development team to continue making necessary updates to improve user experience.
+   [here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/githubv2.png) v2
 
-6. [here](https://github.com/DANNYDEE93/Deployment3) jenkins 
+3. Corrected errors in version 2 of the application for the future and allows the development team to continue making necessary updates to improve user experience.
 
    
 ____________________________________________________________________________
