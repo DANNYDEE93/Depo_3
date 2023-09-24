@@ -18,12 +18,8 @@ A new hire was tasked with updating the URL shortener in Amazon Elastic Beanstal
 #### ______________________________________________________________________________
 To provide a solution for this scenairo, I used an EC2 instance installed with Jenkins, Python, and AWS Elastic Beanstalk CLI along with a webhook made through GitHub to automatically trigger a test and build in Jenkins. I used this same EC2 instance to deploy a web application in an ElasticBeanstalk environment created through the command line interface with an URL shortener in my previous deployment. You can review my previous Deployment 3 [here](https://github.com/DANNYDEE93/Deployment3).
 Given the scenario, I've provided a post-incident report to have a record for what happened, how long the application was down for, the steps I took to resolve the incident, and the steps I will take in the future to avoid another incident like this from happening again. 
-
-
-
-___________________________________________________________
-Message sent to Nike to inform them of the incident. The web application  is currently experiencing issues. We know this is frustrating and we’re working to resolve this as soon as possible. We have escalated this to our engineering team, and will provide an update as soon as more information becomes available.
 ________________________________________________________________
+
 
 #### ______________________________________________________________________________
 ##### **Post-incident report**
@@ -31,10 +27,6 @@ ________________________________________________________________
 
 Between the hour of 12:45pm and 1:05pm on Septermber 22, 2023, all users of the Nike web application encountered an internal server error. As we were working on a second version of the web application, this version was hastily deployed to production at 12:45pm. Version 2 of the web application a code error within the 'application.py' and 'test_app.py' that caused issues with our internal server that disrupted the connectivity to Nike's web application.  This critical-level incident affected 100% of internal and external users. The incident was detected by DataDog from monitor alerts and triggered a successful build in Jenkins and the senior development team was alerted right away. A bug error ticket was created and the incident was escalated to our engineering team.
 
-
-After receiving a page at {XX:XX UTC}, {ON-CALL ENGINEER} came online at {XX:XX UTC} in {SYSTEM WHERE INCIDENT INFO IS CAPTURED}. 
-
-This engineer did not have a background in the {AFFECTED SYSTEM} so a second alert was sent at {XX:XX UTC} to {ESCALATIONS ON-CALL ENGINEER} into the who came into the room at {XX:XX UTC}.
 
 
 
@@ -61,7 +53,13 @@ In order to make sure that the web application wasn't down for longer than 20 mi
 1. Run **git log --oneline** to see th hash number associated with the git commit for Version 1(V1)
 2. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
       2a. After git checkout, V1 was placed in a branch in a detached state so it was not going to be able to add and commit the revert to V1.
-     2b. git pull -u 
+     2b. git pull -u
+   [10:17 PM] git checkout <commit id> .
+[10:16 PM] put the commit id of the version 1
+[10:16 PM] you also have to make sure your head is not detach or its not going to work (edited)
+[10:18 PM] git commit -m "whatever message you want"
+[10:17 PM] git push
+[10:17 PM] the 3 command will roll you backk
 
 <ins> **Was the incident fully resolved?** </ins>
 
