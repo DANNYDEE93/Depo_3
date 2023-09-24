@@ -83,7 +83,7 @@ Now that the deployment was rolled back to the previous version 1 of the applica
 
    
 ____________________________________________________________________________
-#### **Next Steps**
+#### <ins>**Next Steps**</ins>
 ______________________________________________________________________________
 
 Here are some ways we can improve the deployment process and prevent similar incidents from happening in the future:
@@ -94,7 +94,7 @@ Here are some ways we can improve the deployment process and prevent similar inc
 
 
 ____________________________________________________________________________________
-#### **Conclusion**
+#### <ins>**Conclusion**</ins>
 ____________________________________________________________________________________
 
 With the 10 minutes of downtime that was used to roll back to the previous version of the web application, the company has used 50% of the allowable downtime as outlined in our SLA with Nike. For the rest of the year, we now only have 10 minutes to resolve any other service issues with our provided URL shortener. This is why it is very important to follow through with the 'Next Steps' that are described above. If we use the proper tools to continuously monitor and integrate within the deployment process, we can avoid future complications and the risk of breaking our SLA.
