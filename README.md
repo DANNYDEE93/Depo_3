@@ -51,7 +51,18 @@ Reverting the Build Engineering scheduler to the previous version.ccds
 In order to make sure that the web application wasn't down for longer than 20 minutes, my first step was to rollback to the previous version of the application that was working using git code in remote repo in the visual studio code terminal to commit changes and push the switch back to version 1 in the local repo on GitHub. Rollback to version 1 in visual studio code using the following steps:
 
 1. Run **git log --oneline** to see th hash number associated with the git commit for Version 1(V1)
-2. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
+
+ versionHash
+ 
+3. Run **git checkout <V1hash#>** which is the same as "git switch" to switch back the V1.
+
+git checkout 
+
+3.git switch -c second
+git checkout -b branch-name origin/branch-name
+git branch --set-upstream-to=origin/branch-name
+git pull
+git push 
       2a. After git checkout, V1 was placed in a branch in a detached state so it was not going to be able to add and commit the revert to V1.
      2b. git pull -u
    [10:17 PM] git checkout <commit id> .
