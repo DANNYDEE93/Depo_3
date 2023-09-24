@@ -61,9 +61,9 @@ ________________________________________________________________________________
 9. Run **git pull** the changes in the remote repo and sign into Github to connect repositories
 10. Run **git push**  to push changes made in the main branch on the remote repo that has already been connected to the local repo. 
 
-[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/gitpullgitpush.png) 
+![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/gitpullgitpush.png) 
 
-[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/whiteversion1.png) 
+![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/whiteversion1.png) 
 
  <ins>**B. Troubleshooting**</ins>
  
@@ -71,12 +71,12 @@ ________________________________________________________________________________
 
 1. Checked error logs in ElasticBeanstalk that pointed to a JSON error in the application.py file in the local repo.
 
-[here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/eberrorlog.png) 
+![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/eberrorlog.png) 
 
 
 2. Checked error in commits shown in the local repo
 
-   [here](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/githubv2.png) v2
+![](https://github.com/DANNYDEE93/Depo_3/blob/main/templates/githubv2.png) v2
 
 3. Corrected errors in version 2 of the application for the future and allows the development team to continue making necessary updates to improve user experience.
 
